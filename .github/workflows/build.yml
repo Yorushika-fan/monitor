@@ -3,7 +3,7 @@ name: build and publish release
 on:
   push:
     branches:
-      - main
+      - dev
   workflow_dispatch:
 
 permissions:
@@ -41,6 +41,7 @@ jobs:
         id: release-please
         with:
           release-type: python
-          default-branch: main
+          default-branch: dev
           token: ${{ secrets.RELEASE_TOKEN }}
       
+ 
