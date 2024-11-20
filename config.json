@@ -1,0 +1,21 @@
+{
+    "goodConfig": [
+        {
+            "goodsId": "994210179230",
+            "cityCode": "110",
+            "mode": "1"
+        },    {
+            "goodsId": "994211139173",
+            "cityCode": "110",
+            "mode": "1"
+        },
+        {
+            "goodsId": "994210179247",
+            "cityCode": "110",
+            "mode": "1"
+        }
+    ],
+    "time": 10,
+    "wxPush": true,
+    "sendKey": "YourServer酱sendKey"
+}
